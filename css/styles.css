@@ -1,0 +1,158 @@
+
+body{
+  font-family: 'Fraunces', serif;
+  background-color:#212529;
+  color:white;
+}
+
+
+.jumbotron {
+ background-image: url("../images/Jumboback.jpg");
+ height: 80vh;
+ background-size: cover;
+ background-position: center;
+ color: white;
+ box-shadow:0 .5rem .5rem rgba(0,0,0,.2);
+}
+
+i{
+ color:whitesmoke;
+}
+
+.skull{
+ padding-top:200px;
+}
+
+.navbar{
+font-size:1.25rem;
+background-color: rgba(0,0,0,.7) ;
+
+}
+
+.navbar-toggler{ 
+ outline:none!important;
+}
+
+
+.nav-link{
+  color:whitesmoke;
+  margin-left: 10px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.nav-link:hover{
+  text-decoration:underline;
+  color:whitesmoke;  
+}
+ 
+.nav-tabs a{
+  color:white!important;
+}
+
+.nav-link.active{
+  background-color:#212529!important;
+}
+
+
+.captionBackground{
+  background-color: rgba(0,0,0,.5) ;
+  border-radius: 10px;
+}
+
+.red{
+  background-color: red;  
+}
+
+.red img {
+  mix-blend-mode: luminosity;
+}
+
+.dark{
+  background-color: rgb(68, 0, 255);  
+}
+
+.dark img {
+  mix-blend-mode: luminosity;
+}
+
+.light{
+  background-color: rgb(255, 251, 4);  
+}
+
+.light img {
+  mix-blend-mode: darken;
+}
+
+.radius{
+  border-radius: 10px;
+}
+
+
+.card img{
+
+ transition: all 0.3s;
+ overflow: hidden;
+}
+
+.img-wrapper{
+  overflow: hidden;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.modal-body{
+  background-color: rgba(0, 0, 0, 0.918);
+  color:white;
+}
+
+.contact{
+  background-color: black;
+  color:white;
+}
+
+.contact h2{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.nav-tabs .nav-link{
+ color:black;
+ text-decoration: underline;
+}
+
+/* start of reserve image styling*/
+.reserve{
+  top: 0;
+  bottom:auto;
+  
+}
+
+.book{
+  overflow: hidden;
+  transition: all 0.3s;  
+}
+
+.book:hover {
+  transform: scale(1.1);
+}
+
+.modal-header{
+ color: black;
+}
+
+.contact{
+  width:100%;
+  color:white;
+}
+
+.card{
+  border:none;
+}
+
+i {
+  
+  padding: 4px;;
+
+}
